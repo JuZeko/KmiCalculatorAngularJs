@@ -1,0 +1,47 @@
+.container{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background-color: Skyblue;
+	 flex-direction: column;
+	 text-align: center;
+	 padding: 5%;
+	
+}
+
+
+.smallC {
+
+padding: 1%;
+text-align: center;
+
+}
+
+.smallC input:hover{
+
+background-color: #cefbc0;
+
+}
+
+
+@media screen and (max-width: 1400px) {
+  .container {
+    background-color: #fe25fa;
+  }
+  #img{
+  	width: 15%;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1400px) {
+ 
+  #img{
+  	height: 300px;
+  	width:  300px;
+  }
+
+
+}
